@@ -91,7 +91,7 @@ function App() {
             <div className="rounded-[2rem] border border-white/20 bg-white/10 p-3 shadow-[0_0_50px_rgba(255,255,255,0.12)]">
               <img
                 src={posterImage}
-                alt="Srinith Hindi Tuition Poster"
+                alt="Srinith Hindi Tuition Teacher Poster"
                 className="max-h-[620px] w-full rounded-[1.5rem] object-contain"
               />
             </div>
