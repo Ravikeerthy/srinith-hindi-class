@@ -88,18 +88,24 @@ function App() {
             </div>
           </div>
 
-          <div className="relative">
-            <div className="rounded-[2rem] border border-white/20 bg-white/10 p-3 shadow-[0_0_50px_rgba(255,255,255,0.12)]">
+          <div className="relative mx-auto w-full max-w-[520px]">
+            <div className="overflow-hidden rounded-[35px] border border-white/15 bg-black p-3 shadow-[0_0_40px_rgba(250,204,21,0.12)]">
               <img
                 src={HindiTutiinSingle}
-                alt="Srinith Hindi Tuition Teacher Poster"
-                className="max-h-[620px] w-full rounded-[1.5rem] object-contain"
+                alt="Happy students and parents after joining Srinith Hindi Tuition Center"
+                className="h-auto w-full rounded-[1.5rem] object-contain"
               />
             </div>
 
-            <div className="absolute -bottom-6 -left-6 rounded-3xl border border-white/20 bg-black px-6 py-5 shadow-2xl">
-              <h3 className="text-3xl font-extrabold text-yellow-400">100%</h3>
-              <p className="font-semibold text-white/80">Result Guaranteed</p>
+            {/* Responsive Trust Badge */}
+            <div className="absolute bottom-2 left-2 max-w-[90%] rounded-xl border border-white/20 bg-black/90 px-3 py-2 shadow-2xl sm:-bottom-6 sm:-left-6 sm:rounded-3xl sm:px-6 sm:py-5">
+              <h3 className="text-base font-extrabold text-yellow-400 sm:text-2xl">
+                 100%
+              </h3>
+                  
+              <p className="text-xs font-bold text-white sm:text-lg">
+               Result Guaranteed
+              </p>
             </div>
           </div>
         </div>
@@ -148,17 +154,23 @@ function App() {
               </div>
 
               <div className="relative">
-                <div className="overflow-hidden rounded-[35px] border border-white/15 bg-black p-3 shadow-[0_0_40px_rgba(250,204,21,0.12)]">
+                <div className="rounded-[2rem] border border-white/20 bg-white/10 p-3 shadow-[0_0_50px_rgba(255,255,255,0.12)]">
                   <img
                     src={groupImage}
-                    alt="Happy students and parents after joining Srinith Hindi Tuition Center"
-                    className="h-[500px] w-full rounded-[28px] object-cover"
+                    alt="Srinith Hindi Tuition Teacher Poster"
+                    className="max-h-[620px] w-full rounded-[1.5rem] object-contain"
                   />
                 </div>
 
-                <div className="absolute -bottom-6 -left-6 rounded-3xl border border-white/15 bg-red-600 px-6 py-5 text-white shadow-2xl">
-                  <h3 className="text-2xl font-extrabold">★★★★★</h3>
-                  <p className="font-semibold">Trusted by Parents</p>
+                {/* Responsive Result Badge */}
+                <div className="absolute bottom-2 left-2 max-w-[90%] rounded-xl border border-white/20 bg-black/90 px-3 py-2 shadow-2xl sm:-bottom-6 sm:-left-6 sm:rounded-3xl sm:px-6 sm:py-5">
+                  <h3 className="text-lg font-extrabold text-yellow-400 sm:text-3xl">
+                    ★★★★★
+                  </h3>
+
+                  <p className="text-[11px] font-semibold leading-tight text-white/80 sm:text-base">
+                     Trusted by Parents 
+                  </p>
                 </div>
               </div>
             </div>
