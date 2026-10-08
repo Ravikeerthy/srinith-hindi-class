@@ -1,5 +1,6 @@
-import posterImage from "./assets/mamimage.png";
-import aboutUsImage from "./assets/aboutus.png";
+import HindiTutiinSingle from "./assets/Hindi_Tuition_Tutor_Only.png";
+import groupImage from "./assets/group-image.png";
+
 const courses = [
   "CBSE / Matriculation Board",
   "Reading & Writing",
@@ -90,7 +91,7 @@ function App() {
           <div className="relative">
             <div className="rounded-[2rem] border border-white/20 bg-white/10 p-3 shadow-[0_0_50px_rgba(255,255,255,0.12)]">
               <img
-                src={posterImage}
+                src={HindiTutiinSingle}
                 alt="Srinith Hindi Tuition Teacher Poster"
                 className="max-h-[620px] w-full rounded-[1.5rem] object-contain"
               />
@@ -149,7 +150,7 @@ function App() {
               <div className="relative">
                 <div className="overflow-hidden rounded-[35px] border border-white/15 bg-black p-3 shadow-[0_0_40px_rgba(250,204,21,0.12)]">
                   <img
-                    src={aboutUsImage}
+                    src={groupImage}
                     alt="Happy students and parents after joining Srinith Hindi Tuition Center"
                     className="h-[500px] w-full rounded-[28px] object-cover"
                   />
